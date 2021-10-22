@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Angular\src\app\NewFolder\**" />
+    <EmbeddedResource Remove="Angular\src\app\NewFolder\**" />
+    <None Remove="Angular\src\app\NewFolder\**" />
+  </ItemGroup>
+
+</Project>

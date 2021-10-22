@@ -1,0 +1,9 @@
+<div class="ComponentContainer">
+  <p>PERSONELLER</p>
+
+  <p class="pContainer" *ngFor="let item of personelList" (click)="getPersonelBilgileri(item.id)">
+    {{item.Adi}}
+  </p>
+</div>
+
+<app-personelbilgi *ngIf="seciliPersonelId" [PersonelId]="seciliPersonelId"></app-personelbilgi>

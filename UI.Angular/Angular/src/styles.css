@@ -1,0 +1,9 @@
+.ComponentContainer {
+  width: 200px;
+  padding: 30px;
+  border-style: solid;
+}
+.pContainer {
+  border-style: solid;
+  cursor: -webkit-grab;
+}

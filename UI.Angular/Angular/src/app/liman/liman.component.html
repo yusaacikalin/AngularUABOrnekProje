@@ -1,0 +1,9 @@
+<div class="ComponentContainer">
+  <p>LİMANLAR</p>
+
+  <p class="pContainer" *ngFor="let item of limanList" (click)="getPersonel(item.id)">
+    {{item.LimanAdi}}
+  </p>
+</div>
+
+<app-personeller style="display:flex;" *ngIf="seciliLimanId" [seciliLimanId]="seciliLimanId"></app-personeller>
